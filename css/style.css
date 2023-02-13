@@ -4,16 +4,71 @@
   box-sizing: border-box;
 }
 
+/* regole generali */
+.content h3{
+  color: #747474;
+}
+
+.title,.images,.article{
+  padding: 10px;
+}
+
 /* intestazione */
 .up-bar{
   background-color: #4EA0FF;
   background-image: url(../img/pattern.png);
   background-size: contain;
-  height: 75px;
-  padding-top: 30px;
-  padding-left: 5px;
+  height: 100px;
+  padding-top: 40px;
+  padding-left: 10px;
 }
 
 .up-bar img{
-  width: 150px;
+  width: 200px;
+}
+
+/* titolo */
+h1{
+  font-size: 40px;
+}
+
+.title span{
+  color: #747474;
+}
+
+a{
+  color: #59BEEB;
+  text-decoration: none;
+}
+
+/* immagini */
+.images p{
+  font-size: smaller;
+}
+
+/* articolo */
+.article *{
+  padding-bottom: 20px;
+}
+
+.bull p{
+  padding: 0;
+}
+
+thead{
+  background-color: #20A9E5;
+  color: white;
+}
+
+tbody:nth-child(1){
+  background-color: #B1E5F2;
+}
+
+tbody:nth-child(3){
+  background-color: #B1E5F2;
+}
+
+.highlight{
+  background: yellow;
+  padding: initial;
 }
