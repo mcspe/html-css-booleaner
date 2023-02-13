@@ -1,7 +1,19 @@
 /* reset */
 *{
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* intestazione */
+.up-bar{
+  background-color: #4EA0FF;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  height: 75px;
+  padding-top: 30px;
+  padding-left: 5px;
+}
 
+.up-bar img{
+  width: 150px;
+}
