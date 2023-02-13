@@ -55,17 +55,21 @@ a{
   padding: 0;
 }
 
+.smaller-column,.larger-column{
+  padding: 0;
+} 
+
 thead{
   background-color: #20A9E5;
   color: white;
 }
 
-tbody:nth-child(1){
+.odd{
   background-color: #B1E5F2;
 }
 
-tbody:nth-child(3){
-  background-color: #B1E5F2;
+.smaller-column{
+  width: 25%;
 }
 
 .highlight{
@@ -81,13 +85,14 @@ tbody:nth-child(3){
   padding: 10px;
   margin-bottom: 5px;
 }
+
 .interest-box>h3{
   color: whitesmoke;
 }
 
 #monitor{
-    background-image: url(../img/monitor.jpg);
-  }
+  background-image: url(../img/monitor.jpg);
+}
 
 #graph{
   background-image: url(../img/graph.jpg);
