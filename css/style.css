@@ -9,7 +9,7 @@
   color: #747474;
 }
 
-.title,.images,.article{
+.title,.images,.article, .interest{
   padding: 10px;
 }
 
@@ -46,7 +46,7 @@ a{
   font-size: smaller;
 }
 
-/* articolo */
+/* testo articolo */
 .article *{
   padding-bottom: 20px;
 }
@@ -71,4 +71,24 @@ tbody:nth-child(3){
 .highlight{
   background: yellow;
   padding: initial;
+}
+
+/* potrebbero interessarti */
+.interest-box{
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.interest-box>h3{
+  color: whitesmoke;
+}
+
+#monitor{
+    background-image: url(../img/monitor.jpg);
+  }
+
+#graph{
+  background-image: url(../img/graph.jpg);
 }
