@@ -1,0 +1,104 @@
+/* reset */
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* regole generali */
+.content{
+  width: 80%;
+  margin: auto;
+}
+
+.content h3{
+  color: #747474;
+}
+
+.title,.images,.article,.interest{
+  padding: 10px;
+}
+
+/* intestazione */
+.up-bar{
+  background-color: #4EA0FF;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  height: 100px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+.up-bar img{
+  width: 200px;
+}
+
+/* titolo */
+h1{
+  font-size: 40px;
+}
+
+.title span{
+  color: #747474;
+}
+
+a{
+  color: #59BEEB;
+  text-decoration: none;
+}
+
+/* immagini */
+.images p{
+  font-size: smaller;
+}
+
+/* testo articolo */
+.article *{
+  padding-bottom: 20px;
+}
+
+.bull p{
+  padding: 0;
+}
+
+.smaller-column,.larger-column{
+  padding: 0;
+} 
+
+thead{
+  background-color: #20A9E5;
+  color: white;
+}
+
+.odd{
+  background-color: #B1E5F2;
+}
+
+.smaller-column{
+  width: 25%;
+}
+
+.highlight{
+  background: yellow;
+  padding: initial;
+}
+
+/* potrebbero interessarti */
+.interest-box{
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.interest-box>h3{
+  color: whitesmoke;
+}
+
+#monitor{
+  background-image: url(../img/monitor.jpg);
+}
+
+#graph{
+  background-image: url(../img/graph.jpg);
+}
